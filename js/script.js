@@ -2,18 +2,23 @@ $(function () {
 
     // ..navbar sidebar start..//
 
-    function slideMenu() {
-        var activeState = $(".side-bar").hasClass("active");
-        $(".side-bar").animate({
-            left: activeState ? "0%" : "-70%"
-        }, 300);
-    }
-    $(".side-btn").click(function (event) {
-        event.stopPropagation();
-        $(".side-btn").toggleClass("open");
-        $(".side-bar").toggleClass("active");
-        slideMenu();
-    });
+    // function slideMenu() {
+    //     var activeState = $(".side-bar").hasClass("active");
+    //     $(".side-bar").animate({
+    //         left: activeState ? "0%" : "-70%"
+    //     }, 300);
+    // }
+    // $(".side-btn").click(function (event) {
+    //     event.stopPropagation();
+    //     $(".side-btn").toggleClass("open");
+    //     $(".side-bar").toggleClass("active");
+    //     slideMenu();
+    // });
+
+    $(".side-btn").click(function(){
+        $(".side-bar").toggleClass("xyz");
+      });
+
     // ..navbar sidebar end..//
 
     // ...banner counter-up js start...//
@@ -154,7 +159,7 @@ function submit_value() {
         return false;
     }
 
-    if(message.value == ""){
+    if (message.value == "") {
         message.focus();
 
     }
@@ -180,7 +185,7 @@ function valid() {
         Subject.style.backgroundColor = "#fff"
     }
 
-    if(message.value != ""){
+    if (message.value != "") {
         message.style.border = "1px solid #f4f4f4"
         message.style.backgroundColor = "#fff"
     }

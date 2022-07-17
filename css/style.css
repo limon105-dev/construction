@@ -184,11 +184,21 @@ p {
     min-width: 70%;
     height: 100vh;
     background-color: #18A7B9;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -70%;
     z-index: 999;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
+
+.side-bar.xyz {
+    left: 0;
+    position: fixed;
+} 
 
 .side-bar .navbar-nav .nav-item {
     margin-bottom: 30px;
