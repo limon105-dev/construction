@@ -1,0 +1,969 @@
+@media(min-width: 1400px) {
+    .message-text p {
+        font-size: 18px !important;
+    }
+}
+
+@media(min-width: 1200px) and (max-width: 1399px) {
+    /* ..service part start.. */
+
+    .service-item {
+        margin-left: 97px;
+        margin-bottom: 80px;
+    }
+
+    .service-number {
+        width: 90px;
+        margin-right: 25px;
+    }
+
+    .service-number h2 {
+        font-size: 72px;
+    }
+
+    .service-text {
+        width: 413px;
+    }
+
+    .service-text p {
+        line-height: 24px;
+        padding-right: 56px;
+    }
+
+    .service-top-left p {
+        font-size: 18px;
+        padding-right: 0px;
+    }
+
+    .service-btn button {
+        margin-top: 20px;
+    }
+
+    .service-head h2 {
+        font-size: 54px;
+        padding-left: 0px;
+    }
+
+    .service-btm-row {
+        margin-top: 70px;
+    }
+
+    /* ..service part end.. */
+
+    /* ..team part start.. */
+
+    .common-header p {
+        padding: 0 67px;
+    }
+
+    /* ..team part end.. */
+
+    /* ..message part start.. */
+
+    .message-text p {
+        font-size: 15px;
+    }
+
+    /* ..message part end.. */
+
+    /* ..blog part start.. */
+
+    .blog-text p {
+        font-size: 14px;
+    }
+
+    /* ..blog part end.. */
+
+    /* ..subscribe part start.. */
+
+    #subscribe .common-header p {
+        font-size: 20px;
+        padding: 0 27px;
+    }
+
+    /* ..subscribe part end.. */
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    /* ..navbar part start.. */
+
+    .navbar {
+        top: 52px;
+    }
+
+    .navbar-nav {
+        padding-right: 45px;
+    }
+
+    /* ..navbar part end.. */
+
+    /* ..banner part start.. */
+
+    .banner-text .banner-header h1 {
+        font-size: 52px;
+        line-height: 90%;
+        padding-top: 68px;
+    }
+
+    .banner-text .banner-header p {
+        margin-top: 30px;
+        line-height: 24px;
+    }
+
+    .counter-wrapper {
+        margin-top: 75px;
+    }
+
+    .banner-btn {
+        margin-top: 20px;
+    }
+
+    .banner-text .counter-wrapper .counter-item h3 {
+        font-size: 30px;
+    }
+
+    .banner-text .counter-wrapper .counter-item p {
+        font-size: 17px;
+    }
+
+    /* ..banner part end.. */
+
+    /* ..brand part start.. */
+    #brand {
+        padding-top: 126px;
+    }
+
+    /* ..brand part end.. */
+
+    /* ..service part start.. */
+
+    .service-item {
+        margin-left: 61px;
+        margin-bottom: 80px;
+    }
+
+    .service-number {
+        width: 90px;
+        margin-right: 25px;
+    }
+
+    .service-number h2 {
+        font-size: 72px;
+    }
+
+    .service-text p {
+        line-height: 24px;
+    }
+
+    .service-top-left p {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+    .service-btn button {
+        margin-top: 20px;
+    }
+
+    .service-head h2 {
+        font-size: 48px;
+        padding-left: 0px;
+    }
+
+    .service-btm-row {
+        margin-top: 70px;
+    }
+
+    /* ..service part end.. */
+
+    /* ..team part start.. */
+
+    .common-header p {
+        padding: 0 0px;
+    }
+
+    /* ..team part end.. */
+
+    /* ..message part start.. */
+
+    #message-part .common-header h2 {
+        font-size: 47px;
+    }
+
+    .message-text p {
+        font-size: 13px;
+    }
+
+    /* ..message part end.. */
+
+    /* ..blog part start.. */
+
+    .blog-text h4 {
+        font-size: 22px;
+    }
+
+    .blog-text p {
+        font-size: 12px;
+    }
+
+    /* ..blog part end.. */
+
+    /* ..subscribe part start.. */
+
+    #subscribe .common-header p {
+        padding: 0 0px;
+        font-size: 18px;
+    }
+
+    /* ..subscribe part end.. */
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* ..navbar part start.. */
+
+    .navbar {
+        position: unset;
+    }
+
+    .navbar-brand {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    /* ..navbar part end.. */
+
+    /* ..banner part start.. */
+
+    .banner-header {
+        margin-top: 40px;
+    }
+
+    .button-after {
+        display: none;
+    }
+
+    /* ..banner part end.. */
+
+    /* ..service part start.. */
+    #service {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .service-head h2 {
+        font-size: 54px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .service-top-left p {
+        padding-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .service-btn {
+        text-align: center;
+    }
+
+    .service-btm-row {
+        margin-top: 65px;
+    }
+
+    .service-img {
+        margin-bottom: 30px;
+    }
+
+    .service-item {
+        margin-bottom: 40px;
+    }
+
+    /* ..service part end.. */
+
+    /* ..team part start.. */
+    #team {
+        padding-bottom: 75px;
+        padding-top: 30px;
+    }
+
+    .common-header h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .common-header p {
+        padding: 0px 0px;
+    }
+
+    .team-button {
+        display: none;
+    }
+
+    .team-item.slick-slide {
+        margin: 0px 93px;
+    }
+
+    /* ..team part end.. */
+
+    /* ..message part start.. */
+    #message-part {
+        padding-top: 95px;
+        padding-bottom: 80px;
+    }
+
+    #message-part .common-header h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .top-msg-text {
+        padding: 30px 5px 25px;
+        text-align: center;
+    }
+
+    .btm-msg-text {
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    .msg-top-colon {
+        display: none;
+    }
+
+    .msg-btm-colon {
+        display: none;
+    }
+
+    /* ..message part end.. */
+
+    /* ..contact part start.. */
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .contact-row {
+        margin-top: 50px;
+    }
+
+    .contact-map {
+        margin-top: 50px;
+    }
+
+    /* ..contact part end.. */
+
+    /* ..blog part start.. */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .blog-row {
+        margin-top: 10px;
+    }
+
+    .blog-img {
+        margin-top: 30px;
+    }
+
+    .blog-text h4 {
+        padding-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .blog-text p {
+        line-height: 20px;
+    }
+
+    .blog-text a p {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 30px;
+    }
+
+    /* ..blog part end.. */
+
+
+    /* ..subscribe part start.. */
+    #subscribe {
+        padding-bottom: 80px;
+    }
+
+    /* ..subscribe part end.. */
+
+    /* ..footer part start.. */
+
+    .footer-common-part {
+        width: 178px;
+        margin: 0 auto 70px;
+    }
+
+    #footer {
+        padding-bottom: 0px;
+    }
+
+    /* ..footer part end.. */
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    /* ..navbar part start.. */
+
+    .navbar {
+        position: unset;
+    }
+
+    .navbar-brand {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    /* ..navbar part end.. */
+
+    /* ..banner part start.. */
+
+    .banner-header {
+        margin-top: 30px;
+    }
+
+    .banner-text .banner-header h1 {
+        font-size: 59px;
+        text-align: center;
+    }
+
+    .banner-text .banner-header p {
+        margin-top: 20px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .banner-btn {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    button {
+        width: 138px;
+        height: 55px;
+    }
+
+    .button-after {
+        display: none;
+    }
+
+    .counter-wrapper {
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+    .counter-item {
+        margin-bottom: 47px;
+        margin-right: 20px;
+    }
+
+    /* ..banner part end.. */
+
+    /* ..brand part start.. */
+    #brand {
+        padding-top: 0px;
+    }
+
+    /* ..brand part end.. */
+
+    /* ..service part start.. */
+    #service {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .service-head h2 {
+        font-size: 31px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .service-top-left p {
+        padding-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .service-btn {
+        text-align: center;
+    }
+
+    .service-btm-row {
+        margin-top: 65px;
+    }
+
+    .service-img {
+        margin-bottom: 30px;
+    }
+
+    .service-item {
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* ..service part end.. */
+
+    /* ..team part start.. */
+    #team {
+        padding-bottom: 75px;
+        padding-top: 30px;
+    }
+
+    .common-header h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .common-header p {
+        padding: 0px 0px;
+    }
+
+    .team-button {
+        display: none;
+    }
+
+    .team-item.slick-slide {
+        margin: 0px 93px;
+    }
+
+    /* ..team part end.. */
+
+    /* ..message part start.. */
+    #message-part {
+        padding-top: 95px;
+        padding-bottom: 80px;
+    }
+
+    #message-part .common-header h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .top-msg-text {
+        padding: 30px 5px 25px;
+        text-align: center;
+    }
+
+    .btm-msg-text {
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    .msg-top-colon {
+        display: none;
+    }
+
+    .msg-btm-colon {
+        display: none;
+    }
+
+    /* ..message part end.. */
+
+    /* ..contact part start.. */
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .contact-row {
+        margin-top: 50px;
+    }
+
+    .form-btn button {
+        width: 200px;
+        height: 60px;
+    }
+
+    .contact-map {
+        margin-top: 50px;
+    }
+
+    /* ..contact part end.. */
+
+    /* ..blog part start.. */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .blog-row {
+        margin-top: 10px;
+    }
+
+    .blog-img {
+        margin-top: 30px;
+    }
+
+    .blog-text h4 {
+        padding-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .blog-text p {
+        line-height: 20px;
+    }
+
+    .blog-text a p {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 30px;
+    }
+
+    /* ..blog part end.. */
+
+    /* ..subscribe part start.. */
+
+    #subscribe {
+        padding-bottom: 65px;
+    }
+
+    #subscribe .common-header p {
+        padding: 0 5px;
+    }
+
+    /* ..subscribe part end.. */
+
+    /* ..footer part start.. */
+    .footer-logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-left-text p {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-top: 30px;
+    }
+
+    .footer-icon ul {
+        justify-content: center;
+    }
+
+    .footer-common-part {
+        width: 178px;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    .footer-header {
+        margin-bottom: 15px;
+    }
+
+    #footer {
+        padding-bottom: 30px;
+    }
+
+    /* ..footer part end.. */
+}
+
+@media(max-width: 575.99px) {
+
+    /* ..navbar part start.. */
+
+    .navbar {
+        position: unset;
+    }
+
+    .navbar-brand {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    /* ..navbar part end.. */
+
+    /* ..banner part start.. */
+
+    .banner-header {
+        margin-top: 30px;
+    }
+
+    .banner-text .banner-header h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .banner-text .banner-header p {
+        margin-top: 20px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .banner-btn {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    button {
+        width: 138px;
+        height: 55px;
+    }
+
+    .button-after {
+        display: none;
+    }
+
+    .counter-wrapper {
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+    .counter-item {
+        margin-bottom: 47px;
+        margin-right: 20px;
+    }
+
+    /* ..banner part end.. */
+
+    /* ..brand part start.. */
+    #brand {
+        padding-top: 0px;
+    }
+
+    /* ..brand part end.. */
+
+    /* ..service part start.. */
+    #service {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .service-head h2 {
+        font-size: 31px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .service-text {
+        width: 360px;
+        margin-top: 20px;
+    }
+
+    .service-top-left p {
+        padding-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .service-btn {
+        text-align: center;
+    }
+
+    .service-btm-row {
+        margin-top: 65px;
+    }
+
+    .service-img {
+        margin-bottom: 30px;
+    }
+
+    .service-item {
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* ..service part end.. */
+
+    /* ..team part start.. */
+    #team {
+        padding-bottom: 75px;
+        padding-top: 30px;
+    }
+
+    .common-header h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .common-header p {
+        padding: 0px 0px;
+    }
+
+    .team-button {
+        display: none;
+    }
+
+    .team-item.slick-slide {
+        margin: 0px 93px;
+    }
+
+    /* ..team part end.. */
+
+    /* ..message part start.. */
+    #message-part {
+        padding-top: 95px;
+        padding-bottom: 80px;
+    }
+
+    #message-part .common-header h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .top-msg-text {
+        padding: 30px 5px 25px;
+        text-align: center;
+    }
+
+    .btm-msg-text {
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    .msg-top-colon {
+        display: none;
+    }
+
+    .msg-btm-colon {
+        display: none;
+    }
+
+    /* ..message part end.. */
+
+    /* ..contact part start.. */
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .contact-row {
+        margin-top: 50px;
+    }
+
+    .form-item input {
+        width: 297px;
+    }
+
+    .form-item textarea {
+        width: 297px;
+    }
+
+    .form-btn button {
+        width: 200px;
+        height: 60px;
+    }
+
+    .contact-map {
+        margin-top: 50px;
+    }
+
+    /* ..contact part end.. */
+
+    /* ..blog part start.. */
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .blog-row {
+        margin-top: 10px;
+    }
+
+    .blog-img {
+        margin-top: 30px;
+    }
+
+    .blog-text h4 {
+        padding-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .blog-text p {
+        line-height: 20px;
+    }
+
+    .blog-text a p {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 30px;
+    }
+
+    /* ..blog part end.. */
+
+    /* ..subscribe part start.. */
+
+    #subscribe {
+        padding-bottom: 65px;
+    }
+
+    #subscribe .common-header p {
+        padding: 0 5px;
+    }
+
+    /* ..subscribe part end.. */
+
+    /* ..footer part start.. */
+    .footer-logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-left-text p {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-top: 30px;
+    }
+
+    .footer-icon ul {
+        justify-content: center;
+    }
+
+    .footer-common-part {
+        width: 178px;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    .footer-header {
+        margin-bottom: 15px;
+    }
+
+    #footer {
+        padding-bottom: 30px;
+    }
+
+    /* ..footer part end.. */
+
+}

@@ -1,0 +1,1237 @@
+/* ============================================
+                common css start 
+=============================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    line-height: 0.8;
+}
+
+/* ============================================
+                common css end 
+=============================================*/
+
+/* ============================================
+                navbar css start 
+=============================================*/
+.navbar {
+    position: relative;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-nav {
+    padding-right: 92px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 35px;
+}
+
+.navbar-nav .nav-item:first-child {
+    margin-left: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #313131;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    position: absolute;
+    content: "";
+    background-color: #313131;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    left: 0;
+    bottom: -6px;
+    transform: translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::after {
+    left: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* .........side bar part start........ */
+.side-btn-wrapper {
+    width: 50px;
+    text-align: center;
+}
+
+
+.side-btn-wrapper .side-btn {
+    position: relative;
+    width: 25px;
+    height: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.side-btn-wrapper .side-btn span {
+    opacity: 1;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    color: black;
+    background-color: #18A7B9;
+    position: absolute;
+    transform: rotate(0deg);
+    transition: .4s ease-in-out;
+}
+
+.side-btn-wrapper .side-btn span:nth-child(1) {
+    top: 0;
+}
+
+.side-btn-wrapper .side-btn span:nth-child(2) {
+    top: 9px;
+}
+
+.side-btn-wrapper .side-btn span:nth-child(3) {
+    top: 18px;
+}
+
+.side-btn-wrapper .side-btn.open span:nth-child(1) {
+    transform: translateY(9px) rotate(135deg);
+}
+
+.side-btn-wrapper .side-btn.open span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(60px);
+    -webkit-transform: translateX(60px);
+    -moz-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    -o-transform: translateX(60px);
+}
+
+.side-btn-wrapper .side-btn.open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-135deg);
+}
+
+.side-logo {
+    position: absolute;
+    left: 12px;
+    top: 20px;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    background-color: #fff;
+    border-radius: 19px;
+}
+
+.side-bar {
+    min-width: 70%;
+    height: 100vh;
+    background-color: #18A7B9;
+    position: fixed;
+    top: 0;
+    left: -70%;
+    z-index: 999;
+}
+
+.side-bar .navbar-nav .nav-item {
+    margin-bottom: 30px;
+}
+
+.side-bar .navbar-nav .nav-item:last-child {
+    margin-bottom: 0px;
+}
+
+.side-bar .navbar-nav .nav-link {
+    color: #fff;
+    display: inline-block;
+    padding: 0 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+/* .........side bar part end........ */
+
+/* ============================================
+                navbar css end 
+=============================================*/
+
+/* ============================================
+                banner css start 
+=============================================*/
+.banner-text .banner-header h1 {
+    color: #313131;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    line-height: 120%;
+}
+
+.banner-text .banner-header h1 span {
+    color: #18A7B9;
+}
+
+.banner-text .banner-header p {
+    color: #6B6B6B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    margin-top: 40px;
+    padding-right: 127px;
+}
+
+button {
+    border: 1px solid #18A7B9;
+    background-color: #fff;
+    width: 214px;
+    height: 64px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    color: #18A7B9;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.banner-btn {
+    margin-top: 40px;
+    position: relative;
+}
+
+.button-after {
+    position: absolute;
+    left: -167px;
+    top: 24px;
+    z-index: -1;
+}
+
+.banner-btn button {
+    margin-left: 15px;
+}
+
+.banner-btn button:first-child {
+    margin-left: 0;
+}
+
+.banner-btn button:hover {
+    background-color: #18A7B9;
+    color: #FFFFFF;
+    box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+    -webkit-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+    -moz-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+}
+
+.counter-wrapper {
+    margin-top: 112px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.banner-text .counter-wrapper .counter-item h3 {
+    color: #313131;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-text .counter-wrapper .counter-item p {
+    color: #6B6B6B;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+}
+
+.counter-item {
+    position: relative;
+}
+
+.counter-after {
+    position: absolute;
+    left: -4px;
+    top: -18px;
+    z-index: -1;
+}
+
+.banner-img img {
+    border-bottom-left-radius: 42%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.banner-after {
+    position: absolute;
+    left: -106px;
+    top: 65px;
+    z-index: -1;
+}
+
+.banner-before {
+    position: absolute;
+    right: 26px;
+    bottom: -83px;
+    z-index: -1;
+}
+
+/* ============================================
+                banner css end 
+=============================================*/
+
+/* ============================================
+                brand css start 
+=============================================*/
+#brand {
+    padding-top: 83px;
+}
+
+.brand-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #FAFAFA;
+    border-radius: 150px;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    padding-left: 80px;
+    padding-right: 80px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+
+.brand-item {
+    width: 148px;
+}
+
+.slick-slide img {
+    display: inline-block;
+}
+
+/* ============================================
+                brand css end 
+=============================================*/
+
+/* ============================================
+                service css start 
+=============================================*/
+#service {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.service-top-left p {
+    color: #6B6B6B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    padding-right: 127px;
+}
+
+.service-btn button {
+    margin-top: 30px;
+}
+
+.service-btn button:hover {
+    background-color: #18A7B9;
+    color: #FFFFFF;
+    box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+    -webkit-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+    -moz-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+}
+
+.service-head h2 {
+    color: #313131;
+    font-size: 54px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 120%;
+    padding-left: 70px;
+}
+
+.service-btm-row {
+    margin-top: 110px;
+}
+
+.service-img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.service-img img {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 292px;
+    border-bottom-right-radius: 10px;
+}
+
+.service-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 105px;
+    margin-bottom: 142px;
+    justify-content: space-around;
+}
+
+.service-item:last-child {
+    margin-bottom: 0;
+}
+
+.service-number h2 {
+    color: #313131;
+    font-size: 72px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-number {
+    position: relative;
+    width: 70px;
+}
+
+.service-after {
+    position: absolute;
+    left: -30px;
+    top: 17px;
+    z-index: -1;
+}
+
+.service-text {
+    width: 360px;
+}
+
+.service-text p {
+    color: #6B6B6B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    padding-top: 25px;
+}
+
+/* ============================================
+                service css end 
+=============================================*/
+
+/* ============================================
+                team css start 
+=============================================*/
+#team {
+    padding-bottom: 140px;
+}
+
+.common-header h2 {
+    color: #313131;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.common-header p {
+    color: #6B6B6B;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    padding: 0 127px;
+}
+
+.team-row {
+    margin-top: 80px;
+}
+
+.team-item {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-left: 21px;
+    margin-right: 21px;
+    background-color: #fff;
+    filter: drop-shadow(0px 20px 50px rgba(198, 217, 225, 0.30));
+    -webkit-filter: drop-shadow(0px 20px 50px rgba(198, 217, 225, 0.30));
+    position: relative;
+}
+
+.team-item i {
+    padding-left: 30px;
+    color: #F0BB00;
+}
+
+.dots {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.dots ul li {
+    width: 5px;
+    height: 5px;
+    background-color: #313131;
+    margin-bottom: 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dots ul li:last-child {
+    margin-bottom: 0;
+}
+
+.team-img h4 {
+    color: #313131;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 22px;
+}
+
+.team-img p {
+    color: #6B6B6B;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+}
+
+.team-contact {
+    padding-top: 45px;
+}
+
+.team-contact h5 a {
+    color: #6B6B6B;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.team-contact h5 {
+    margin-bottom: 10px;
+}
+
+.team-contact p a {
+    color: #18A7B9;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.team-button {
+    width: 120px;
+    height: 66px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 30px auto 0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: drop-shadow(0px 20px 50px #C6D9E1);
+    -webkit-filter: drop-shadow(0px 20px 50px #C6D9E1);
+}
+
+.button-left {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.button-left i {
+    font-size: 20px;
+    color: #313131;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team-button .button-left:hover {
+    background-color: #18A7B9;
+}
+
+.team-button .button-left:hover i {
+    color: #fff;
+}
+
+.button-right {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.button-right i {
+    font-size: 20px;
+    color: #313131;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team-button .button-right:hover {
+    background-color: #18A7B9;
+}
+
+.team-button .button-right:hover i {
+    color: #fff;
+}
+
+.team-row .slick-list {
+    padding-bottom: 50px;
+}
+
+/* ============================================
+                team css end 
+=============================================*/
+
+/* ============================================
+                message css start 
+=============================================*/
+#message-part {
+    padding-top: 175px;
+    padding-bottom: 300px;
+}
+
+#message-part .common-header h2 {
+    color: #FAFAFA;
+    font-size: 54px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.message-text p {
+    color: #FAFAFA;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+}
+
+.top-msg-text {
+    padding: 30px 0 55px;
+}
+
+.message-text {
+    position: relative;
+}
+
+.msg-top-colon {
+    position: absolute;
+    left: -92px;
+    top: -28px;
+}
+
+.msg-btm-colon {
+    position: absolute;
+    right: -88px;
+    bottom: -62px;
+}
+
+/* ============================================
+                message css end 
+=============================================*/
+
+/* ============================================
+                contact css start 
+=============================================*/
+#contact {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.contact-row {
+    margin-top: 80px;
+}
+
+.form-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-item:last-child {
+    margin-bottom: 0;
+}
+
+.form-item input {
+    width: 487px;
+    height: 64px;
+    padding-left: 50px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 7px;
+    color: #313131;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.form-item input:focus {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+}
+
+.form-item input:focus-visible {
+    outline: none;
+}
+
+.form-item label {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    width: 90px;
+    height: 18px;
+    color: #6B6B6B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    transform-origin: 0 0;
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+    -moz-transition: transform 0.2s ease-in-out;
+    -ms-transition: transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+}
+
+.form-item input::placeholder {
+    color: red;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-item input:focus+label,
+.form-item input:not(:placeholder-shown)+label {
+    text-align: center;
+    transform: translateY(-27px) scale(0.9);
+    background-color: #fff;
+    color: #6B6B6B;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transform: translateY(-27px) scale(0.9);
+    -moz-transform: translateY(-27px) scale(0.9);
+    -ms-transform: translateY(-27px) scale(0.9);
+    -o-transform: translateY(-27px) scale(0.9);
+}
+
+.form-item textarea {
+    width: 489px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 50px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 7px;
+    color: #313131;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.form-item textarea:focus {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+}
+
+
+.form-item textarea::placeholder {
+    color: #6B6B6B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-item textarea:focus-visible {
+    outline: none;
+}
+
+.form-item textarea:focus+label,
+.form-item textarea:not(:placeholder-shown)+label {
+    text-align: center;
+    transform: translateY(-27px) scale(0.9);
+    background-color: #fff;
+    color: #6B6B6B;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transform: translateY(-27px) scale(0.9);
+    -moz-transform: translateY(-27px) scale(0.9);
+    -ms-transform: translateY(-27px) scale(0.9);
+    -o-transform: translateY(-27px) scale(0.9);
+}
+
+.form-btn {
+    margin-top: 30px;
+}
+
+.form-btn button {
+    width: 237px;
+    height: 66px;
+    font-weight: 400;
+}
+
+.form-btn button:hover {
+    background-color: #18A7B9;
+    color: #FFFFFF;
+    box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+    -webkit-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+    -moz-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .15);
+}
+
+.error-msg {
+    color: #f80b0b;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ============================================
+                contact css end 
+=============================================*/
+
+/* ============================================
+                blog css start 
+=============================================*/
+#blog {
+    padding-bottom: 140px;
+}
+
+.blog-img img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.blog-img {
+    position: relative;
+}
+
+.blog-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 56px;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.blog-text h4 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 30px;
+}
+
+.blog-text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog-text a p {
+    border: 1px solid #fff;
+    width: 214px;
+    height: 64px;
+    line-height: 64px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 0;
+}
+
+.blog-row {
+    margin-top: 80px;
+}
+
+.blog-img:hover .blog-text a p {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 40px;
+}
+
+.blog-text a p:hover {
+    background-color: #18A7B9;
+    border-color: #18A7B9;
+}
+
+/* ============================================
+                blog css end 
+=============================================*/
+
+/* ============================================
+                subscribe css start 
+=============================================*/
+#subscribe {
+    padding-bottom: 155px;
+}
+
+#subscribe .common-header p {
+    padding: 0 72px;
+}
+
+.subscribe-btn {
+    margin-top: 40px;
+}
+
+.subscribe-btn .subsubscribe-btn-text {
+    border: 1px solid #18A7B9;
+    width: 220px;
+    height: 56px;
+    background-color: #fff;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-btn .subsubscribe-btn-text h5 {
+    color: #18A7B9;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.subscribe-btn .subsubscribe-btn-text i {
+    color: #18A7B9;
+    font-size: 11px;
+    padding-left: 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.subsubscribe-btn-text:hover {
+    background-color: #18A7B9;
+    box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .2);
+    -webkit-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .2);
+    -moz-box-shadow: 0px 54px 77px 22px rgba(24, 167, 185, .2);
+}
+
+.subsubscribe-btn-text:hover h5 {
+    color: #fff;
+}
+
+.subsubscribe-btn-text:hover i {
+    color: #fff;
+}
+
+/* ============================================
+                subscribe css end 
+=============================================*/
+
+/* ============================================
+                footer css start 
+=============================================*/
+#footer {
+    padding-bottom: 70px;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-left-text p {
+    color: #6B6B6B;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    padding-right: 100px;
+}
+
+.footer-icon {
+    margin-top: 40px;
+}
+
+.footer-icon ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-icon ul li {
+    padding-right: 15px;
+}
+
+.footer-icon ul li:last-child {
+    padding-right: 0;
+}
+
+.footer-icon ul li a i {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #18A7B9;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer-header {
+    margin-bottom: 40px;
+}
+
+.footer-header h6 {
+    color: #313131;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-list ul li {
+    margin-bottom: 20px;
+}
+
+.footer-list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-list ul li a {
+    color: #6B6B6B;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-btn input {
+    width: 175px;
+    height: 40px;
+    background-color: #f1f1f1;
+    border: none;
+    padding-left: 12px;
+    padding-right: 35px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.footer-btn input:focus-visible {
+    outline: none;
+}
+
+.footer-btn input::placeholder {
+    color: #6B6B6B;
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.footer-btn button {
+    position: absolute;
+    right: 12px;
+    top: 20px;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    color: #18A7B9;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+    border: 1px solid #18A7B9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.footer-btn {
+    position: relative;
+}
+
+.footer-common-part {
+    width: 178px;
+    margin: 0 auto;
+}
+
+/* ============================================
+                footer css end 
+=============================================*/
+
+/* ============================================
+                copyright css start 
+=============================================*/
+.copyright-text {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-top: 1px solid #f4f4f4;
+}
+
+.copyright-text p {
+    color: #C2C2C2;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ============================================
+                copyright css end 
+=============================================*/
